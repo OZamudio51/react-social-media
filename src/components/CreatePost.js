@@ -16,6 +16,7 @@ const CreatePost = ({ user }) => {
         // handleAddPost(post);
         dispatch({ type: "ADD_POST", payload: { post } });
         setContent("");
+        setImage("");
         imageInputRef.current.value = null;
     }
 
